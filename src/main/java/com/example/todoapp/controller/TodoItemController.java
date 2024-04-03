@@ -52,6 +52,11 @@ public class TodoItemController {
  - git remote add origin https://[Token]@[URL]
  - git push origin main
 
+5. 기능 단위로 커밋
+6. 막히거나 테스트를위해서 분기처리가 필요할때 브랜치 생성
+7. 개발용 브랜치를 생성후 개발하고 완성되면 메인브랜치에 병합!!
+
+브랜치 생성 > 개발 > 메인으로 병합
  */
     private final TodoItemService todoItemService;
 
